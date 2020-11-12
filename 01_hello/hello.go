@@ -13,11 +13,11 @@ package main /*
 import "fmt" /*
 	# import "[ package_name ]" : 해당 패키지의 함수들을 사용하겠다는 선언
 	# 여러 패키지를 사용하고 싶을 경우
-		import {
+		import (
 			"fmt"
 			"sort"
 			...
-		}
+		)
 */
 
 func main() { /*
