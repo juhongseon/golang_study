@@ -21,7 +21,10 @@ func fbnc(end int) int {
 }
 
 func main() {
-	fmt.Println(add(1, 2)) // golang은 항상 값이 복사됨. 참조 X
+	fmt.Println(add(1, 2)) /*
+		# golang은 항상 값이 복사됨. 참조 X
+		# 참조하려면 포인터 써야함. '*'
+	*/
 
 	a, b := swap(2, 3)
 	fmt.Println(a, b)
